@@ -682,7 +682,7 @@ on property:sys.boot_completed=1
     write /sys/module/cpu_boost/parameters/plug_boost_ms 5
 
     # Post boot services
-    start mpdecision
+    #start mpdecision
 
 service atfwd /system/bin/ATFWD-daemon
     class late_start
